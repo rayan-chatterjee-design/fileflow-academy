@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileFlow Academy</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1><a href="./index.html" class="title">FileFlow Academy</a></h1>
+
+    <nav>
+        <a href="modules.html">Module Overview</a>
+        <a href="module1.html">Module 1</a>
+        <a href="module2.html">Module 2</a>
+        <a href="module3.html">Module 3</a>
+        <a href="module4.html">Module 4</a>
+        <a href="module5.html">Module 5</a>
+        <a href="module6.html">Module 6</a>
+        <a href="module7.html">Module 7</a>
+        <a href="module8.html">Module 8</a>
+    </nav>
+</header>
+
+<main>
+
+<h1 style="text-align:center;">Module 4/8: Data Safety</h1>
+
+<div class="progress-bar"><div class="progress" style="width:50%"></div></div>
+
+<div class="container">
+
+<div class="text">
+<h2>Backup Strategies</h2>
+
+<p>
+Data loss can occur through hardware failure, accidental deletion, malware, or system corruption. Relying on a single device is a risk. Backup strategies reduce vulnerability.
+</p>
+<br>
+<p>
+A widely recommended method is the 3-2-1 rule: maintain three copies of important data, store them in two different formats, and keep one copy off-site (such as in cloud storage). This ensures redundancy without excessive duplication.
+</p>
+<br>
+<p>
+Backups should be scheduled and consistent. Irregular backups create gaps in protection. Automated cloud synchronisation can reduce manual effort while maintaining safety.
+</p>
+<br>
+<p>
+Data safety is not reactive; it is preventative. The absence of problems today does not guarantee security tomorrow.
+</p>
+</div>
+
+<div class="image">
+<img src="./images/4_1.png" alt="Diagram showing cloud and external backup systems" style="width: 450px;">
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="text">
+<h2>Recycle Bin Behaviour</h2>
+When files are deleted, they are often moved to a temporary storage area known as the recycle bin. This system provides a recovery buffer, allowing restoration before permanent deletion.
+</p>
+<br>
+<p>
+However, files are not fully removed until the bin is emptied. Users must understand this distinction to manage storage effectively. Large files may continue occupying space even after deletion.
+</p>
+<br>
+<p>
+Regular review of deleted items ensures accidental removals can be corrected. Permanent deletion should be deliberate, not impulsive.
+</p>
+</div>
+
+<div class="image">
+<img src="./images/4_2.png" alt="Recycle bin with restore and delete options">
+</div>
+
+</div>
+
+<div class="text">
+<h2>Module Assessment</h2>
+<h3>Question 1</h3>
+
+<p>Why use backups?</p>
+
+<button onclick="correct()">To prevent data loss</button>
+<button onclick="wrong()">To organise files</button>
+
+<h3>Question 2</h3>
+<p>Your laptop suddenly stops working the night before submitting an assignment. Which practice would have prevented losing your work?</p>
+<button onclick="wrong()">Saving everything in the Downloads folder</button>
+<button onclick="correct()">Keeping a backup copy on another device or cloud storage</button>
+<button onclick="wrong()">Restarting the computer more often</button>
+
+<h3>Question 3</h3>
+<p>What is the main purpose of a backup?</p>
+<button onclick="correct()">To recover files if the original is lost</button>
+<button onclick="wrong()">To rename files automatically</button>
+<button onclick="wrong()">To increase internet speed</button>
+
+<h3>Question 4</h3>
+<p>You accidentally delete a document but realise immediately that you still need it. What should you check first?</p>
+<button onclick="wrong()">System settings</button>
+<button onclick="wrong()">Create a new folder</button>
+<button onclick="correct()">The recycle bin</button>
+
+<h3>Question 5</h3>
+<p>Which storage option is most useful for automatic backups?</p>
+<button onclick="wrong()">Temporary internet files</button>
+<button onclick="correct()">Cloud storage services</button>
+<button onclick="wrong()">The desktop folder</button>
+
+<h3>Question 6</h3>
+<p>A student empties the recycle bin without checking its contents. What is the main risk?</p>
+<button onclick="correct()">Important files may be permanently deleted</button>
+<button onclick="wrong()">The computer will slow down</button>
+<button onclick="wrong()">Folders will automatically reorganise</button>
+
+<h3>Question 7</h3>
+<p>What does the 3-2-1 backup rule recommend?</p>
+<button onclick="correct()">Three copies of data, two storage types, one off-site copy</button>
+<button onclick="wrong()">Three folders, two files, one device</button>
+<button onclick="wrong()">Three computers connected together</button>
+
+<h3>Question 8</h3>
+<p>Your friend keeps all project files on one USB drive only. What is the problem with this approach?</p>
+<button onclick="wrong()">USB drives cannot store documents</button>
+<button onclick="correct()">If the drive fails, all files may be lost</button>
+<button onclick="wrong()">USB drives automatically delete files</button>
+
+<h3>Question 9</h3>
+<p>Which action improves data safety the most?</p>
+<button onclick="correct()">Scheduling regular backups</button>
+<button onclick="wrong()">Changing file colours</button>
+<button onclick="wrong()">Creating many empty folders</button>
+
+<h3>Question 10</h3>
+<p>A group project folder contains critical work. What is the best safety strategy?</p>
+<button onclick="wrong()">Store it only on one computer</button>
+<button onclick="correct()">Store copies on both cloud storage and a local device</button>
+<button onclick="wrong()">Rename the folder frequently</button>
+
+</div>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

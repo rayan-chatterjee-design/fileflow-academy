@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F8FAFC;
+    color: #1F2933;
+}
+
+/* HEADER */
+header {
+    background-color: #2563EB;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Inter";
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.title {
+
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Poppins";
+
+}
+
+.title:hover {
+
+    text-decoration: underline;
+
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+/* TEXT SECTION */
+.text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    font-family: "Inter";
+}
+
+main h1 {
+
+    padding-top: 50px;
+
+}
+
+/* IMAGE SECTION */
+.image {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #E5E7EB;
+    padding: 20px;
+    width: 250px;
+}
+
+.sidebar_hyperlinks {
+
+    color:#1F2933;
+    text-decoration: none;
+
+}
+
+.sidebar_hyperlinks:hover {
+
+    text-decoration: underline;
+
+}
+
+/* MAIN CONTENT */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* MODULE LAYOUT */
+.module-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* BUTTON */
+.button {
+    background-color: #DBEAFE;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #1F2933;
+    border-radius: 8px;
+}
+
+/* PROGRESS BAR */
+.progress-bar {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #E5E7EB;
+    height: 20px;
+    border-radius: 8px;
+}
+
+.progress {
+    width: 40%;
+    height: 100%;
+    background-color: #2563EB;
+    border-radius: 8px;
+}
